@@ -2,20 +2,95 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.vehicles-page {
+  transform-origin: top left;
+}
+
+@media (max-width: 768px) {
+  .vehicles-page {
+    transform: scale(0.7); 
+    width: 142.85%; 
+    overflow-x: auto; 
+  }
+
+  .sidebar {
+    width: 100%; 
+    transform-origin: top left;
+  }
+
+  .main-content {
+    width: 100%; 
+  }
+
+  table {
+    font-size: 0.8rem; 
+  }
+
+  input, button {
+    font-size: 0.8rem; 
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+
+.car-table {
+  transform-origin: top left;
+}
+
+@media (max-width: 768px) {
+  .car-table {
+    transform: scale(0.8); 
+    width: 125%; 
+    overflow-x: auto; 
+  }
+
+  .car-table h1 {
+    font-size: 1.5rem; 
+  }
+
+  .car-table h2 {
+    font-size: 1.25rem; 
+  }
+
+  .car-table input {
+    font-size: 0.875rem; 
+  }
+
+  .car-table .grid {
+    gap: 0.5rem; 
+  }
+
+  .car-table img {
+    height: 120px; 
+  }
+
+  .car-table button {
+    font-size: 0.875rem;
+  }
+}
+
+
+
+
+.car-component {
+  transform-origin: top left;
+}
+
+@media (max-width: 768px) {
+  .car-component {
+    transform: scale(0.5);
+    width: 200.85%; 
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .car-component {
+    transform: scale(0.6);
+    width: 166.67%; 
+  }
 }
