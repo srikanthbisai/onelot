@@ -8,7 +8,7 @@ function DealershipManagementSystem() {
       <div className="right lg:w-2/3 p-10 space-y-10">
         <h1 className="text-5xl font-bold">Dealership Management System</h1>
         <p className="text-gray-600 text-lg mt-4">
-          OneLot's digital platform has been built with the single goal to help used car dealers operate their business more efficiently.
+          OneLot&apos;s digital platform has been built with the single goal to help used car dealers operate their business more efficiently.
         </p>
 
         <div className="h-0.5 bg-gray-300 my-4"></div>
@@ -37,7 +37,7 @@ function DealershipManagementSystem() {
         <div className="h-0.5 bg-gray-300 my-4"></div>
 
         <p className="text-wrap text-lg text-gray-400">
-          Sign-up for OneLot's dealer platform today and manage your cars more efficiently.
+          Sign-up for OneLot&apos;s dealer platform today and manage your cars more efficiently.
         </p>
 
         <div className="mt-6">
