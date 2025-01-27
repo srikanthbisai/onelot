@@ -12,7 +12,7 @@ function CarFinancing() {
         <h1 className="text-5xl font-bold">Car Financing</h1>
         <h3 className="font-semibold mt-4 text-3xl">Dealer Loans</h3>
         <p className="text-gray-600 text-lg mt-2">
-          OneLot's working capital loans allow car dealers to buy more cars and capitalize on car purchase opportunities you would otherwise have missed. We transfer the money to your account within 6 hours.
+          OneLot&apos;s working capital loans allow car dealers to buy more cars and capitalize on car purchase opportunities you would otherwise have missed. We transfer the money to your account within 6 hours.
         </p>
 
         <div className="h-0.5 mt-10 bg-gray-300 my-4"></div>
@@ -41,7 +41,7 @@ function CarFinancing() {
         <div className="h-0.5 bg-gray-300 my-4"></div>
 
         <p className="text-wrap text-lg text-gray-400">
-          Use OneLot's financing solution today, grow the number of cars in your lot and increase your profits
+          Use OneLot&apos;s financing solution today, grow the number of cars in your lot and increase your profits
         </p>
 
         <div className="mt-6">

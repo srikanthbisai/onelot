@@ -25,13 +25,10 @@ function About() {
 
           {/* Features Section */}
           <div className="flex flex-col space-y-6 md:w-1/2">
-            {/* Dealer Loans Feature */}
             <div className="flex items-start">
-              {/* Icon */}
               <div className="w-12 h-12 flex items-center justify-center rounded-md">
                 <BiDollarCircle className='text-3xl bg-cyan-500 bg-clip-text text-cyan-500 '/>
               </div>
-              {/* Text */}
               <div className="ml-4">
                 <h2 className="text-lg font-semibold text-gray-900">
                   Dealer Loans
@@ -48,7 +45,6 @@ function About() {
               </div>
             </div>
 
-            {/* Dealership Management System Feature */}
             <div className="flex items-start">
               {/* Icon */}
               <div className="w-12 h-12 flex items-center justify-center rounded-md">
@@ -66,7 +62,7 @@ function About() {
                   Enhance efficiency and sales with free digital tools for car dealerships
                 </a>
                 <p className="mt-2 text-sm text-gray-600">
-                  OneLot offers a suite of powerful digital tools designed to optimize your dealership's operations.
+                  OneLot offers a suite of powerful digital tools designed to optimize your dealership&apos;s operations.
                 </p>
               </div>
             </div>
