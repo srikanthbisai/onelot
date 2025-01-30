@@ -1,12 +1,12 @@
 import React from "react";
 import { FaPlus } from "react-icons/fa";
 import { carsData } from "../lib/CarData";
-import { Sidebar } from "../components/Sidebar";
-import { TopStats } from "../components/TopStats";
-import { VehicleCard } from "../components/VehicleCard";
-import { Pagination } from "../components/Pagination";
-import { PublishOptions } from "../components/PublishOptions";
-import { PostComponent } from "../components/PostComponent";
+import { Sidebar } from "./Sidebar";
+import { TopStats } from "./TopStats";
+import { VehicleCard } from "./VehicleCard";
+import { Pagination } from "./Pagination";
+import { PublishOptions } from "./PublishOptions";
+import { PostComponent } from "./PostComponent";
 
 export default function Car() {
   return (

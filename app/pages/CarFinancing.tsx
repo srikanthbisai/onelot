@@ -1,6 +1,6 @@
 import React from 'react';
 import { SiTicktick } from "react-icons/si";
-import CarTable from './CarTable';
+import CarTable from '../components/CarTable';
 
 function CarFinancing() {
   return (
