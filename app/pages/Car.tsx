@@ -14,10 +14,10 @@ export default function Car() {
       <Sidebar />
 
       <div className="border-r border-gray-100 w-0.5"></div>
-
+      
       <div className="flex-1 p-6 relative overflow-visible">
         <TopStats />
-
+        
         <h1 className="text-2xl font-bold mb-4">Vehicles</h1>
         <div className="flex justify-between">
           <input
@@ -27,7 +27,7 @@ export default function Car() {
           />
           <div className="">
             <button className="p-2 gap-2 bg-purple-800 flex items-center mb-2 rounded-md">
-              <FaPlus className="text-white" />{" "}
+              <FaPlus className="text-white" />
               <span className="text-white">Add Vehicle</span>
             </button>
           </div>
