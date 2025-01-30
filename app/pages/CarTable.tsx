@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { FaBars, FaFilter } from "react-icons/fa";
+import { FaBars, FaCheckCircle, FaFilter } from "react-icons/fa";
 import { IoGridOutline } from "react-icons/io5";
 import { carsData, imagesRow } from "../lib/CarTableData";
 
@@ -8,7 +8,7 @@ export default function CarTable() {
   return (
     <div className="car-table p-4 border border-gray-300 shadow-md rounded-lg">
       <h1 className="text-2xl font-bold">Vehicles</h1>
-      
+
       <div className="flex justify-between p-2">
         <h2 className="text-xl mt-2">Car Loan</h2>
         <button className="border px-3 py-2 rounded-md flex items-center gap-2">
@@ -48,7 +48,9 @@ export default function CarTable() {
               <p className="text-xs text-gray-600 mt-1">{car.description}</p>
               <ul className="text-xs text-gray-500 mt-2">
                 {car.details.map((detail, i) => (
-                  <li key={i}>&bull; {detail}</li>
+                  <li key={i} className="flex items-center gap-2">
+                    <FaCheckCircle className="text-cyan-500" /> {detail}
+                  </li>
                 ))}
               </ul>
               <button className="mt-4 w-full bg-purple-800 text-white py-2 rounded">
