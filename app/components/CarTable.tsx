@@ -37,7 +37,6 @@ export default function CarTable() {
                 alt="Car"
                 layout="fill"
                 objectFit="cover"
-                className="rounded-t"
               />
             </div>
             <div className="p-4 bg-white">
@@ -49,7 +48,7 @@ export default function CarTable() {
               <ul className="text-xs text-gray-500 mt-2">
                 {car.details.map((detail, i) => (
                   <li key={i} className="flex items-center gap-2">
-                    <FaCheckCircle className="text-cyan-500" /> {detail}
+                    <FaCheckCircle className="text-cyan-500  w-3 h-3 flex-shrink-0"/> {detail}
                   </li>
                 ))}
               </ul>

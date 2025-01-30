@@ -23,13 +23,13 @@ const FAQ = () => {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="border-b border-gray-200 pb-4"
+              className="border-b border-gray-300 pb-6"
               onClick={() => toggleFAQ(index)}
             >
               {/* Question */}
               <div className="flex justify-between items-center cursor-pointer">
                 <div className="flex items-center space-x-2">
-                <HiQuestionMarkCircle/>
+                <HiQuestionMarkCircle className="text-gray-500"/>
                   <span className="text-lg font-medium text-gray-900">
                    {faq.question}
                   </span>
@@ -41,8 +41,8 @@ const FAQ = () => {
 
               {/* Answer */}
               {activeIndex === index && (
-                <div className="mt-2 text-gray-600">
-                  {faq.answer}{" "}
+                <div className="mt-3 text-gray-600">
+                  {faq.answer}
                   {faq.linkText && (
                     <a
                       href="#"

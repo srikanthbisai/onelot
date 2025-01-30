@@ -5,7 +5,7 @@ import { FaTruck } from "react-icons/fa";
 
 export const Sidebar = () => {
   return (
-    <div className="w-1/5 p-4 -z-10">
+    <div className="w-1/5 p-4 bg-white z-10 rounded-lg">
       <ul className="space-y-4 text-center p-1">
         <li className="text-gray-700 font-medium flex flex-row gap-2 items-center">
           <IoPerson className="text-cyan-500" /> Dashboard
