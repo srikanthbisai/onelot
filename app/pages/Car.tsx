@@ -1,5 +1,5 @@
 import React from "react";
-import {  FaPlus } from "react-icons/fa";
+import { FaPlus } from "react-icons/fa";
 import { carsData } from "../lib/CarData";
 import { Sidebar } from "../components/Sidebar";
 import { TopStats } from "../components/TopStats";

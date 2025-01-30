@@ -2,88 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* Global Styles */
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.vehicles-page {
-  transform-origin: top left;
-}
-
-@media (max-width: 768px) {
-  .vehicles-page {
-    transform: scale(0.7); 
-    width: 142.85%; 
-    overflow-x: auto; 
-  }
-
-  .sidebar {
-    width: 100%; 
-    transform-origin: top left;
-  }
-
-  .main-content {
-    width: 100%; 
-  }
-
-  table {
-    font-size: 0.8rem; 
-  }
-
-  input, button {
-    font-size: 0.8rem; 
-  }
-}
-
-
-.car-table {
-  transform-origin: top left;
-}
-
-@media (max-width: 768px) {
-  .car-table {
-    transform: scale(0.8); 
-    width: 125%; 
-    overflow-x: auto; 
-  }
-
-  .car-table h1 {
-    font-size: 1.5rem; 
-  }
-
-  .car-table h2 {
-    font-size: 1.25rem; 
-  }
-
-  .car-table input {
-    font-size: 0.875rem; 
-  }
-
-  .car-table .grid {
-    gap: 0.5rem; 
-  }
-
-  .car-table img {
-    height: 120px; 
-  }
-
-  .car-table button {
-    font-size: 0.875rem;
-  }
-}
-
-
-
-
+/* Vehicles Page */
+.vehicles-page,
+.car-table,
 .car-component {
   transform-origin: top left;
 }
 
+/* Sidebar & Main Content */
+.sidebar,
+.main-content {
+  width: 100%;
+}
+
+/* Responsive Scaling for .vehicles-page */
+@media (max-width: 768px) {
+  .vehicles-page {
+    transform: scale(0.7);
+    width: 142.85%;
+    overflow-x: auto;
+  }
+}
+
+/* Responsive Scaling for .car-table */
+@media (max-width: 768px) {
+  .car-table {
+    transform: scale(0.8);
+    width: 125%;
+    overflow-x: auto;
+  }
+
+  .car-table h1 {
+    font-size: 1.5rem;
+  }
+
+  .car-table h2 {
+    font-size: 1.25rem;
+  }
+
+  .car-table input,
+  .car-table button {
+    font-size: 0.875rem;
+  }
+
+  .car-table .grid {
+    gap: 0.5rem;
+  }
+
+  .car-table img {
+    height: 120px;
+  }
+}
+
+/* Responsive Scaling for .car-component */
 @media (max-width: 768px) {
   .car-component {
     transform: scale(0.5);
-    width: 200.85%; 
+    width: 200.85%;
     overflow-x: auto;
   }
 }
@@ -91,6 +71,16 @@ body {
 @media (max-width: 480px) {
   .car-component {
     transform: scale(0.6);
-    width: 166.67%; 
+    margin: auto;
+    width: 166.67%;
+  }
+}
+
+/* Font-size & Layout Tweaks for Smaller Screens */
+@media (max-width: 768px) {
+  table,
+  input,
+  button {
+    font-size: 0.8rem;
   }
 }

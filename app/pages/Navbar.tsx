@@ -16,14 +16,14 @@ function Navbar() {
         <h1 className="font-bold text-3xl text-black">OneLot</h1>
         </div>
 
-        <nav className="space-x-10 hidden  lg:flex">
+        <nav className="space-x-10 hidden lg:flex">
           {navItems.map((item, i) => (
             <a
               key={i}
               href="#"
               className={`text-lg font-medium ${
                 item === "Home" ? "text-purple-600" : "text-black"
-              } hover:text-purple-600`}
+              } hover:text-purple-800`}
             >
               {item}
               {item === "Products" && (
