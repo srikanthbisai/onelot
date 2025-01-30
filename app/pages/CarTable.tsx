@@ -36,7 +36,7 @@ export default function CarTable() {
                 src={car.image}
                 alt="Car"
                 layout="fill"
-                objectFit="contain"
+                objectFit="cover"
                 className="rounded-t"
               />
             </div>
