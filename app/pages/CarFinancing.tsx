@@ -18,20 +18,20 @@ function CarFinancing() {
         <div className="h-0.5 mt-10 bg-gray-300 my-4"></div>
 
         <ul className="list-disc pl-5 text-gray-700 space-y-2">
-          <ol className="flex items-center gap-2">
-            <SiTicktick className="w-5 h-5 sm:w-6 sm:h-6 bg-purple-200 flex-shrink-0" />
+          <ol className="flex items-center gap-3">
+            <SiTicktick className="w-4 h-4 sm:w-6 sm:h-6 text-purple-300 flex-shrink-0" />
             <span className="text-lg">
               Interest as low as 1.5% per month with daily calculation of interest
             </span>
           </ol>
-          <ol className="flex items-center gap-2">
-            <SiTicktick className="w-5 h-5 sm:w-6 sm:h-6 bg-purple-200 flex-shrink-0" />
+          <ol className="flex items-center gap-3">
+            <SiTicktick className="w-4 h-4 sm:w-6 sm:h-6 text-purple-300 flex-shrink-0" />
             <span className="text-lg">
               Financing up to 70% of the vehicle purchase
             </span>
           </ol>
-          <ol className="flex items-center gap-2">
-            <SiTicktick className="w-5 h-5 sm:w-6 sm:h-6 bg-purple-200 flex-shrink-0" />
+          <ol className="flex items-center gap-3">
+            <SiTicktick className="w-4 h-4 sm:w-6 sm:h-6 text-purple-300 flex-shrink-0" />
             <span className="text-lg">
               Financing period up to 90 days with flexible repayment schedule at any point
             </span>

@@ -14,20 +14,20 @@ function DealershipManagementSystem() {
         <div className="h-0.5 bg-gray-300 my-4"></div>
 
         <ul className="list-disc pl-5 text-gray-700 space-y-6">
-          <ol className="flex items-center gap-2">
-            <SiTicktick className="w-5 h-5 sm:w-6 sm:h-6 bg-purple-200 flex-shrink-0" />
+          <ol className="flex items-center gap-3">
+            <SiTicktick className="w-4 h-4 sm:w-6 sm:h-6 text-purple-300 flex-shrink-0" />
             <span className="text-lg">
               <strong>Inventory Management:</strong> Track all details about your cars and sales in one place - from car details to buyers. All you need to know in one place.
             </span>
           </ol>
-          <ol className="flex items-center gap-2">
-            <SiTicktick className="w-5 h-5 sm:w-6 sm:h-6 bg-purple-200 flex-shrink-0" />
+          <ol className="flex items-center gap-4">
+            <SiTicktick className="w-4 h-4 sm:w-6 sm:h-6 text-purple-300 flex-shrink-0" />
             <span className="text-lg">
               <strong>Marketing Tools:</strong> Promote your cars across all the different platforms. Write a marketing text and upload on Facebook Marketplace, Groups, Pages, and Instagram with a single click of a button.
             </span>
           </ol>
-          <ol className="flex items-center gap-2">
-            <SiTicktick className="w-5 h-5 sm:w-6 sm:h-6 bg-purple-200 flex-shrink-0" />
+          <ol className="flex items-center gap-3">
+            <SiTicktick className="w-4 h-4 sm:w-6 sm:h-6 text-purple-300 flex-shrink-0" />
             <span className="text-lg">
               <strong>Market Insights (Coming Soon):</strong> Get insights on prices and volumes for all cars in the market. We provide you all the data by combining data from various sources with a single click of a button.
             </span>

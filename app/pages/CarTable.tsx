@@ -74,7 +74,7 @@ export default function CarTable() {
               alt="Car"
               className="w-full h-48 object-cover"
             />
-            <div className="p-4 bg-white">
+            <div className="p-4  bg-white">
               <span className="bg-green-100 text-green-600 px-2 py-1 text-sm rounded">
                 {car.title}
               </span>
